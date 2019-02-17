@@ -1,7 +1,7 @@
 //Console.log out elements in JSON file
 
 var videoData = {
-  video: [
+  videos: [
     {
       id: 12312412312,
       name: "Ecuaciones Diferenciales",
@@ -19,12 +19,11 @@ var videoData = {
   ]
 };
 
-for (i = 0; i < videoData.video.length; i++) {
-  output = videoData.video[i];
-  {
-    for (i = 0; i < videoData.video.data.length; i++) {
-      output = videoData.video.data[i];
-    }
-    console.log(videoData.video[i]);
+for (var i = 0; i < videoData.videos.length; i++) {
+  var video = videoData.videos[i];
+  console.log(video);
+  for (var j = 0; j < video.author.data.length; j++) {
+    var authorData = video.author.data[j];
+    console.log(authorData);
   }
 }
