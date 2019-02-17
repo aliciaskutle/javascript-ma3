@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+<body>
+
+<!--Contact Form-->
+
+<form>
+    <fieldset>
+    <section>
+        <label for="firstname">First name:</label>
+        <input type="text" name="firstname" pattern="^[a-zA-Z \-æøåéüöê]{2,50}$">
+    </section>
+    <section>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname" pattern="^[a-zA-Z \-æøåéüöê]{2,50}$">
+    </section>
+    <section>
+            <label for="telephone">Telephone number:</label>
+            <input type="number" name="telephone" pattern="^\d{8}$">
+        </section>
+        <section>
+            <label for="email">Email address:</label>
+            <input type="email" name="email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$">
+        </section>
+        <section>
+            <button type="submit" id="submit">Submit</button>
+        </section>
+        </fieldset>
+  </form>
+
+
+<script src="script.js"></script>
+</body>
+</html>
