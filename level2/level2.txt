@@ -5,17 +5,24 @@ Level 2
 1. In your own words, describe what JavaScript Code Style is.
 
 2. What is a Regular Expression?
+A type of object and a way of detecting different patterns of a string, and can be used to validate values. 
 
 3. What does the .random() method do?
+It returns a random number between 0 and 1.
 
 4. What does the .sort() method do?
+It sorts the elements inside of an array.
 
 5. What does the .reverse() method do?
+It reverses the places of the elements inside of an array.
 
 6. List two examples of bad JavaScript code.
 
+
 7. What data types can a JSON object contain?
+6 types of data: objects, arrays, strings, numbers, booleans and Null. 
 
 8. What is minifying JavaScript Code?
 
 9. What is a global variable?
+A variable that is available anywhere inside of a progra. 
